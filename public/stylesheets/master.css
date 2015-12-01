@@ -12,8 +12,10 @@ height: 100%;
 }
 
 .menu{
+  position: fixed;
   background: black;
   width: 40%;
+  transition: all linear 0.95s;
 }
 
 .menu ul{
@@ -34,7 +36,6 @@ height: 100%;
   text-decoration: none;
   transition:all linear 0.15s;
 }
- 
 .menu a:hover, .menu .current-item a {
   text-decoration:none;
   color:#66a992;
