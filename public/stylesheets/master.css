@@ -1,0 +1,41 @@
+/*Bigger Screens*/
+@media (min-width: 750px) {
+
+}
+
+html, body{
+height: 100%;
+}
+
+.toggle-nav{
+  display: none;
+}
+
+.menu{
+  background: black;
+  width: 40%;
+}
+
+.menu ul{
+  display: inline-block;
+  width: 100%;
+}
+
+.menu li {
+  margin:1% 2% 0px 2%;
+  list-style:none;
+  font-size:28px;
+  border: solid white 1px;
+  width: 96%;
+}
+.menu a {
+  text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+  color:#777;
+  text-decoration: none;
+  transition:all linear 0.15s;
+}
+ 
+.menu a:hover, .menu .current-item a {
+  text-decoration:none;
+  color:#66a992;
+}
